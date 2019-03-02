@@ -1,0 +1,162 @@
+html,
+body {
+  height: 100%;
+  margin: 0px;
+  background-color: #dbc18e;
+  ;
+}
+
+/* 
+Header style 
+*/
+
+header {
+  text-align: left;
+  background-color: #dbc18e;
+  color: #4c3e1e;
+}
+
+header table {
+  margin-left: 0px;
+}
+
+.logo {
+  padding: 10px;
+  height: 150px;
+}
+
+header h1 {
+  font-size: 40px;
+  font-family: 'Pacifico', cursive;
+}
+
+header h2 {
+  font-size: 20px;
+  font-family: 'Righteous', cursive;
+}
+
+/* 
+Navigation bar style 
+*/
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: 0.2s;
+  color: white;
+}
+
+.navbar button.right {
+  float: right;
+}
+
+.navbar button:hover {
+  background-color: gray;
+  color: black;
+}
+
+.navbar button.active {
+  background-color: #c4c4c4;
+  color: black;
+}
+
+/* 
+Navigation content style 
+*/
+
+.navcontent {
+  background-color: #d8c8a9;
+  display: none;
+  padding: 10px 20px;
+  border: none;
+  border-top: none;
+  font-family: Arial;
+  height: 80%;
+  width: 75%;
+  margin: auto;
+}
+
+/*
+Updates page style 
+*/
+
+.updateentry {
+  padding-left: 10px;
+}
+
+.updatelist {
+  padding-left: 0px;
+  list-style-type: none;
+  margin-left: 0px;
+}
+
+/*
+About page style 
+*/
+
+.aboutlist {
+  padding-left: 0px;
+}
+
+.aboutentry {
+  list-style-type: none;
+}
+
+/*
+Footer style
+*/
+
+footer {
+  height: 33%;
+  margin: auto;
+  font-family: Arial;
+  background-color: #333;
+  color: #bababa;
+  text-align: center;
+}
+
+footer.h3 {
+  font-size: 15px;
+}
+
+.footerlink a {
+  font-size: 12px;
+  color: #bababa;
+}
+
+.footerlink a:hover {
+  opacity: 0.7;
+}
+
+.fa {
+  padding: 20px;
+  padding-top: 0px;
+  font-size: 20px;
+  width: 30px;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: #bababa;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.copyright {
+  font-size: 10px;
+}
+
+.secureseal {
+  font-size: 10px;
+  float: right;
+  padding-right: 5%;
+}
